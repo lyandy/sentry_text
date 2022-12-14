@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B619A2D329423ACA00565971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2D229423ACA00565971 /* AppDelegate.m */; };
+		B619A2D629423ACA00565971 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2D529423ACA00565971 /* SceneDelegate.m */; };
+		B619A2D929423ACA00565971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2D829423ACA00565971 /* ViewController.m */; };
+		B619A2DC29423ACA00565971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B619A2DA29423ACA00565971 /* Main.storyboard */; };
+		B619A2DE29423ACB00565971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B619A2DD29423ACB00565971 /* Assets.xcassets */; };
+		B619A2E129423ACB00565971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B619A2DF29423ACB00565971 /* LaunchScreen.storyboard */; };
+		B619A2E429423ACB00565971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2E329423ACB00565971 /* main.m */; };
+		B619A2EE29423ACB00565971 /* sentry_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2ED29423ACB00565971 /* sentry_testTests.m */; };
+		B619A2F829423ACC00565971 /* sentry_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2F729423ACC00565971 /* sentry_testUITests.m */; };
+		B619A2FA29423ACC00565971 /* sentry_testUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B619A2F929423ACC00565971 /* sentry_testUITestsLaunchTests.m */; };
+		D6C482E94623424143EE1F5F /* libPods-sentry_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F80950E5011E500A772FDD /* libPods-sentry_test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B619A2EA29423ACB00565971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B619A2C629423ACA00565971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B619A2CD29423ACA00565971;
+			remoteInfo = sentry_test;
+		};
+		B619A2F429423ACB00565971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B619A2C629423ACA00565971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B619A2CD29423ACA00565971;
+			remoteInfo = sentry_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E094159D4F208EFB797650 /* Pods-sentry_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sentry_test.debug.xcconfig"; path = "Target Support Files/Pods-sentry_test/Pods-sentry_test.debug.xcconfig"; sourceTree = "<group>"; };
+		283AC30165FBE8601030A468 /* Pods-sentry_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sentry_test.release.xcconfig"; path = "Target Support Files/Pods-sentry_test/Pods-sentry_test.release.xcconfig"; sourceTree = "<group>"; };
+		67F80950E5011E500A772FDD /* libPods-sentry_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sentry_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B619A2CE29423ACA00565971 /* sentry_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sentry_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B619A2D129423ACA00565971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B619A2D229423ACA00565971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B619A2D429423ACA00565971 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B619A2D529423ACA00565971 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B619A2D729423ACA00565971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B619A2D829423ACA00565971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B619A2DB29423ACA00565971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B619A2DD29423ACB00565971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B619A2E029423ACB00565971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B619A2E229423ACB00565971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B619A2E329423ACB00565971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B619A2E929423ACB00565971 /* sentry_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sentry_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B619A2ED29423ACB00565971 /* sentry_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sentry_testTests.m; sourceTree = "<group>"; };
+		B619A2F329423ACB00565971 /* sentry_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sentry_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B619A2F729423ACC00565971 /* sentry_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sentry_testUITests.m; sourceTree = "<group>"; };
+		B619A2F929423ACC00565971 /* sentry_testUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sentry_testUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B619A2CB29423ACA00565971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C482E94623424143EE1F5F /* libPods-sentry_test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2E629423ACB00565971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2F029423ACB00565971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2347E7C42316302CE8ECE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F80950E5011E500A772FDD /* libPods-sentry_test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B619A2C529423ACA00565971 = {
+			isa = PBXGroup;
+			children = (
+				B619A2D029423ACA00565971 /* sentry_test */,
+				B619A2EC29423ACB00565971 /* sentry_testTests */,
+				B619A2F629423ACC00565971 /* sentry_testUITests */,
+				B619A2CF29423ACA00565971 /* Products */,
+				FFD8804A9E2B3945E5D4E6EB /* Pods */,
+				2C2347E7C42316302CE8ECE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B619A2CF29423ACA00565971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B619A2CE29423ACA00565971 /* sentry_test.app */,
+				B619A2E929423ACB00565971 /* sentry_testTests.xctest */,
+				B619A2F329423ACB00565971 /* sentry_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B619A2D029423ACA00565971 /* sentry_test */ = {
+			isa = PBXGroup;
+			children = (
+				B619A2D129423ACA00565971 /* AppDelegate.h */,
+				B619A2D229423ACA00565971 /* AppDelegate.m */,
+				B619A2D429423ACA00565971 /* SceneDelegate.h */,
+				B619A2D529423ACA00565971 /* SceneDelegate.m */,
+				B619A2D729423ACA00565971 /* ViewController.h */,
+				B619A2D829423ACA00565971 /* ViewController.m */,
+				B619A2DA29423ACA00565971 /* Main.storyboard */,
+				B619A2DD29423ACB00565971 /* Assets.xcassets */,
+				B619A2DF29423ACB00565971 /* LaunchScreen.storyboard */,
+				B619A2E229423ACB00565971 /* Info.plist */,
+				B619A2E329423ACB00565971 /* main.m */,
+			);
+			path = sentry_test;
+			sourceTree = "<group>";
+		};
+		B619A2EC29423ACB00565971 /* sentry_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				B619A2ED29423ACB00565971 /* sentry_testTests.m */,
+			);
+			path = sentry_testTests;
+			sourceTree = "<group>";
+		};
+		B619A2F629423ACC00565971 /* sentry_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B619A2F729423ACC00565971 /* sentry_testUITests.m */,
+				B619A2F929423ACC00565971 /* sentry_testUITestsLaunchTests.m */,
+			);
+			path = sentry_testUITests;
+			sourceTree = "<group>";
+		};
+		FFD8804A9E2B3945E5D4E6EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E094159D4F208EFB797650 /* Pods-sentry_test.debug.xcconfig */,
+				283AC30165FBE8601030A468 /* Pods-sentry_test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B619A2CD29423ACA00565971 /* sentry_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B619A2FD29423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_test" */;
+			buildPhases = (
+				7C13EF05EE9201D1A561A33E /* [CP] Check Pods Manifest.lock */,
+				B619A2CA29423ACA00565971 /* Sources */,
+				B619A2CB29423ACA00565971 /* Frameworks */,
+				B619A2CC29423ACA00565971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sentry_test;
+			productName = sentry_test;
+			productReference = B619A2CE29423ACA00565971 /* sentry_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B619A2E829423ACB00565971 /* sentry_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B619A30029423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_testTests" */;
+			buildPhases = (
+				B619A2E529423ACB00565971 /* Sources */,
+				B619A2E629423ACB00565971 /* Frameworks */,
+				B619A2E729423ACB00565971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B619A2EB29423ACB00565971 /* PBXTargetDependency */,
+			);
+			name = sentry_testTests;
+			productName = sentry_testTests;
+			productReference = B619A2E929423ACB00565971 /* sentry_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B619A2F229423ACB00565971 /* sentry_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B619A30329423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_testUITests" */;
+			buildPhases = (
+				B619A2EF29423ACB00565971 /* Sources */,
+				B619A2F029423ACB00565971 /* Frameworks */,
+				B619A2F129423ACB00565971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B619A2F529423ACB00565971 /* PBXTargetDependency */,
+			);
+			name = sentry_testUITests;
+			productName = sentry_testUITests;
+			productReference = B619A2F329423ACB00565971 /* sentry_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B619A2C629423ACA00565971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B619A2CD29423ACA00565971 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B619A2E829423ACB00565971 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B619A2CD29423ACA00565971;
+					};
+					B619A2F229423ACB00565971 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B619A2CD29423ACA00565971;
+					};
+				};
+			};
+			buildConfigurationList = B619A2C929423ACA00565971 /* Build configuration list for PBXProject "sentry_test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B619A2C529423ACA00565971;
+			productRefGroup = B619A2CF29423ACA00565971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B619A2CD29423ACA00565971 /* sentry_test */,
+				B619A2E829423ACB00565971 /* sentry_testTests */,
+				B619A2F229423ACB00565971 /* sentry_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B619A2CC29423ACA00565971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B619A2E129423ACB00565971 /* LaunchScreen.storyboard in Resources */,
+				B619A2DE29423ACB00565971 /* Assets.xcassets in Resources */,
+				B619A2DC29423ACA00565971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2E729423ACB00565971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2F129423ACB00565971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C13EF05EE9201D1A561A33E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sentry_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B619A2CA29423ACA00565971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B619A2D929423ACA00565971 /* ViewController.m in Sources */,
+				B619A2D329423ACA00565971 /* AppDelegate.m in Sources */,
+				B619A2E429423ACB00565971 /* main.m in Sources */,
+				B619A2D629423ACA00565971 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2E529423ACB00565971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B619A2EE29423ACB00565971 /* sentry_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B619A2EF29423ACB00565971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B619A2F829423ACC00565971 /* sentry_testUITests.m in Sources */,
+				B619A2FA29423ACC00565971 /* sentry_testUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B619A2EB29423ACB00565971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B619A2CD29423ACA00565971 /* sentry_test */;
+			targetProxy = B619A2EA29423ACB00565971 /* PBXContainerItemProxy */;
+		};
+		B619A2F529423ACB00565971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B619A2CD29423ACA00565971 /* sentry_test */;
+			targetProxy = B619A2F429423ACB00565971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B619A2DA29423ACA00565971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B619A2DB29423ACA00565971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B619A2DF29423ACB00565971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B619A2E029423ACB00565971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B619A2FB29423ACC00565971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B619A2FC29423ACC00565971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B619A2FE29423ACC00565971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E094159D4F208EFB797650 /* Pods-sentry_test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JVTPR5H5XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sentry_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taou.sentry-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MaiMai_main_any;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B619A2FF29423ACC00565971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283AC30165FBE8601030A468 /* Pods-sentry_test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = JVTPR5H5XE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sentry_test/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taou.sentry-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MaiMai_main_any;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B619A30129423ACC00565971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.test.sentry-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sentry_test.app/sentry_test";
+			};
+			name = Debug;
+		};
+		B619A30229423ACC00565971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.test.sentry-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sentry_test.app/sentry_test";
+			};
+			name = Release;
+		};
+		B619A30429423ACC00565971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.test.sentry-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sentry_test;
+			};
+			name = Debug;
+		};
+		B619A30529423ACC00565971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andy.test.sentry-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sentry_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B619A2C929423ACA00565971 /* Build configuration list for PBXProject "sentry_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B619A2FB29423ACC00565971 /* Debug */,
+				B619A2FC29423ACC00565971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B619A2FD29423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B619A2FE29423ACC00565971 /* Debug */,
+				B619A2FF29423ACC00565971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B619A30029423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B619A30129423ACC00565971 /* Debug */,
+				B619A30229423ACC00565971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B619A30329423ACC00565971 /* Build configuration list for PBXNativeTarget "sentry_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B619A30429423ACC00565971 /* Debug */,
+				B619A30529423ACC00565971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B619A2C629423ACA00565971 /* Project object */;
+}
